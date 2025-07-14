@@ -20,8 +20,13 @@
 // Feel free to change as desired.
 //
 struct node;
+// normally I'd put the struct definition in the .c and a typedef in the .h for better encapsulation
+
+// typedef struct linked_list linked_list_t;
 struct linked_list {
     struct node * head;
+    struct node * tail;
+    size_t size;
 };
 
 // A node in the linked_list structure.

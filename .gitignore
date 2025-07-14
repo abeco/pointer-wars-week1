@@ -1,0 +1,67 @@
+# Compiled object files
+*.o
+*.obj
+
+# Compiled binary executables
+*.exe
+*.out
+*.app
+*.elf
+
+# Shared libraries
+*.so
+*.dll
+*.dylib
+
+# Static libraries
+*.a
+*.lib
+
+# Debug and symbol files
+*.pdb
+*.dSYM/
+*.map
+
+# Build directories
+build/
+bin/
+lib/
+
+# Makefile generated files
+*.dep
+*.d
+
+# Editor files
+*~
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# VSCode workspace files
+.vscode/
+
+# CLion/JetBrains IDE files
+.idea/
+
+# Logs
+*.log
+
+# Core dumps
+core
+
+# AddressSanitizer leak reports
+leak*.txt
+
+# Valgrind logs
+vgcore.*
+
+# Test result files
+test_output.txt
+
+# ccache and build tools cache
+ccache/
+.cache/
+
+# Custom files
+linked_list_test_program
